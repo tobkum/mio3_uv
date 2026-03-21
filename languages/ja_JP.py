@@ -3,6 +3,11 @@ translation_dict = {
         # Options
         ("*", "UV Sync Auto Select"): "選択同期で自動選択",
         ("*", "Legacy UI Layout"): "従来のUIレイアウト",
+        ("*", "Use UV Tiles"): "UVタイルを使用する",
+        ("*", "Use UDIM UV Tiles"): "UDIM形式のUVタイルを使用する",
+        ("*", "Symmetry Priority "): "対称操作の優先",
+        ("*", "Specifies which side to use as the reference during automatic symmetry."): "自動対称化の際にどちら側を基準にするかを指定します",
+
 
         # 🍑 Common
         ("Operator", "Horizontal"): "水平",
@@ -100,6 +105,10 @@ translation_dict = {
 
         # 🍑 Vertex
 
+        # Relax
+        ("*", "Strength of the relaxation effect"): "リラックスの効果の強さ",
+        ("*", "Number of relaxation iterations to perform"): "リラックスの反復回数",
+
         ("Operator", "Circular"): "円形",
         ("*", "Shape the edge loop into a circular shape"): "エッジループを円形に整える",
         ("Operator", "Offset"): "オフセット",
@@ -157,6 +166,7 @@ translation_dict = {
         ("*", "Fast Mode"): "高速モード",
         ("*", "Performs a simplified search for mirrored UVs\n(may not work correctly if multiple faces are too close together in 3D space"): "ミラーUVを簡易的に検索します\n3D空間で複数の面が近すぎると正しく検索できないことがあります",
         ("*", "Does not reference the orientation of the face in 3D space"): "3D空間の面の方向を参照しません",
+        ("*", "The direction is automatically determined based on the UV selection"): "UV選択に基づいて方向が自動的に決定されます",
 
         # Select
         ("Operator", "Select Half"): "半分を選択",
